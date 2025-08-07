@@ -31,10 +31,18 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 // In-memory database
 let users = [
-  { id: 1, name: 'John Doe', email: 'john.doe@example.com' },
-  { id: 2, name: 'Jane Doe', email: 'jane.doe@example.com' },
+    { id: 1, name: 'Alice Smith', email: 'alice.smith@example.com' },
+    { id: 2, name: 'Bob Johnson', email: 'bob.johnson@example.com' },
+    { id: 3, name: 'Charlie Brown', email: 'charlie.brown@example.com' },
+    { id: 4, name: 'Diana Prince', email: 'diana.prince@example.com' },
+    { id: 5, name: 'Ethan Hunt', email: 'ethan.hunt@example.com' },
+    { id: 6, name: 'Fiona Glenanne', email: 'fiona.glenanne@example.com' },
+    { id: 7, name: 'George Costanza', email: 'george.costanza@example.com' },
+    { id: 8, name: 'Hannah Montana', email: 'hannah.montana@example.com' },
+    { id: 9, name: 'Ian Malcolm', email: 'ian.malcolm@example.com' },
+    { id: 10, name: 'Julia Child', email: 'julia.child@example.com' }
 ];
-let nextId = 3;
+let nextId = 11;
 
 // Routes will go here
 
